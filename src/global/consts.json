@@ -1,0 +1,32 @@
+{
+  "themes": {
+    "dark": {
+      "primary": "#fff",
+      "background": "#111"
+    },
+    "bright": {
+      "primary": "#000",
+      "background": "#eee"
+    }
+  },
+  "fonts": {
+    "primary": "Signika"
+  },
+  "fontSizes": {
+    "xl": "4rem",
+    "l": "2rem",
+    "m": "1.25rem",
+    "s": "1rem",
+    "xs": ".9rem"
+  },
+  "fontWeights": {
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "breakpoints": {
+    "tablet": "768px"
+  }
+}
