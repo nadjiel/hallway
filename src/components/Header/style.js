@@ -62,7 +62,7 @@ export const Link = styled.a`
   }
 `;
 
-export const Options = styled.button`
+export const ThemeToggler = styled.button`
   width: 2rem;
   height: 2rem;
   padding: .25rem;

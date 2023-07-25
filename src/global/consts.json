@@ -1,10 +1,12 @@
 {
   "themes": {
     "dark": {
+      "name": "dark",
       "primary": "#fff",
       "background": "#111"
     },
     "bright": {
+      "name": "bright",
       "primary": "#000",
       "background": "#eee"
     }

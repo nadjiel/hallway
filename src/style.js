@@ -9,6 +9,7 @@ export const Style = createGlobalStyle`
     line-height: inherit;
     font-weight: inherit;
     color: inherit;
+    transition: all 100ms ease-out;
   }
 
   html {

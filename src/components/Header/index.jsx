@@ -1,10 +1,13 @@
-import { SlOptionsVertical } from "react-icons/sl";
+import { useTheme } from "styled-components";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 import logo from "../../assets/logo.svg";
 
-import { Container, Logotype, Logomark, Title, Nav, Menu, Item, Link, Options } from "./style";
+import { Container, Logotype, Logomark, Title, Nav, Menu, Item, Link, ThemeToggler } from "./style";
 
-export function Header() {
+export function Header({ toggleThemes }) {
+  const theme = useTheme();
+
   return (
     <Container>
       <Logotype>
@@ -19,9 +22,13 @@ export function Header() {
           <Item><Link href="#contact" title="Contact me!">Contact</Link></Item>
         </Menu>
         
-        <Options>
-          <SlOptionsVertical style={ { width: "100%", height: "100%" } } />
-        </Options>
+        <ThemeToggler onClick={ toggleThemes }>
+          {
+            theme.name == "dark" ?
+            <FaSun style={ { width: "100%", height: "100%" } } /> :
+            <FaMoon style={ { width: "100%", height: "100%" } } />
+          }
+        </ThemeToggler>
       </Nav>
     </Container>
   )
