@@ -1,27 +1,36 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
 
 import consts from "./global/consts.json";
+import { getUser } from "./services";
 
-import { Header } from "./components";
+import { Header, About } from "./components";
 
 import { Style } from "./style";
 
 function App() {
-  const [ theme, setTheme ] = useState("dark");
+  useEffect(() => { loadUser(); }, []);
+  
+  const [ user, setUser ] = useState({});
+  const [ theme, setTheme ] = useState(consts.themes.dark);
 
+  const loadUser = () => (
+    getUser(consts.user).then(res => setUser(res))
+  );
+  
   const toggleThemes = () => (
-    theme == "dark" ?
-    setTheme("bright") :
-    setTheme("dark")
+    theme.name == "dark" ?
+    setTheme(consts.themes.bright) :
+    setTheme(consts.themes.dark)
   );
 
   return (
     <div className="App">
-      <ThemeProvider theme={ consts.themes[theme] }>
+      <ThemeProvider theme={ theme }>
         <Style />
 
         <Header toggleThemes={ toggleThemes } />
+        <About user={ user }/>
       </ThemeProvider>
     </div>
   );
