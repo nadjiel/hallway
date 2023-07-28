@@ -2,13 +2,13 @@
   "themes": {
     "dark": {
       "name": "dark",
-      "primary": "#fff",
-      "background": "#111"
+      "primary": "#ffffff",
+      "background": "#111111"
     },
     "bright": {
       "name": "bright",
-      "primary": "#000",
-      "background": "#eee"
+      "primary": "#000000",
+      "background": "#eeeeee"
     }
   },
   "fonts": {
