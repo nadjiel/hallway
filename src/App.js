@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import consts from "./global/consts.json";
 import { getUser } from "./services";
 
-import { Header, About } from "./components";
+import { Header, About, Abilities } from "./components";
 
 import { Style } from "./style";
 
@@ -31,6 +31,7 @@ function App() {
 
         <Header toggleThemes={ toggleThemes } />
         <About user={ user }/>
+        <Abilities />
       </ThemeProvider>
     </div>
   );

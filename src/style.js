@@ -44,4 +44,8 @@ export const Style = createGlobalStyle`
     border: 0;
     cursor: pointer;
   }
+
+  progress {
+    border: 0;
+  }
 `;

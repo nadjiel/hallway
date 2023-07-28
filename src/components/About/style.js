@@ -6,7 +6,7 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 1rem;
   
   @media (max-width: ${ consts.breakpoints.tablet }) {
     flex-direction: column;
