@@ -31,5 +31,67 @@
   "breakpoints": {
     "tablet": "768px"
   },
-  "user": "nadjiel"
+  "user": "nadjiel",
+  "techs": [
+    {
+      "name": "html5",
+      "src": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+    },
+    {
+      "name": "css3",
+      "src": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+    },
+    {
+      "name": "javascript",
+      "src": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+    },
+    {
+      "name": "nodejs",
+      "src": "https://nodejs.org/en",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+    },
+    {
+      "name": "jest",
+      "src": "https://jestjs.io/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+    },
+    {
+      "name": "git",
+      "src": "https://git-scm.com/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+    },
+    {
+      "name": "c",
+      "src": "https://www.w3schools.com/c/c_intro.php",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"
+    },
+    {
+      "name": "java",
+      "src": "https://www.java.com/download/help/whatis_java.html",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
+    },
+    {
+      "name": "postgresql",
+      "src": "https://www.postgresql.org/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+    },
+    {
+      "name": "mongodb",
+      "src": "https://www.mongodb.com/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+    },
+    {
+      "name": "redis",
+      "src": "https://redis.io/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg"
+    },
+    {
+      "name": "neo4j",
+      "src": "https://neo4j.com/",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-plain.svg"
+    }
+  ]
 }
