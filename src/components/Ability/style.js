@@ -4,15 +4,8 @@ import consts from "../../global/consts.json";
 
 export const Container = styled.div`
   position: relative;
-  max-width: 24rem;
-  flex-grow: 1;
   display: flex;
   gap: 1rem;
-  padding: 1rem;
-  border: 1px solid ${ ({ theme }) => theme.primary };
-  border-radius: 1rem;
-  background-color: ${ ({ theme }) => theme.primary + "40" };
-  backdrop-filter: blur(5px);
 `;
 
 export const Icon = styled.img`

@@ -1,8 +1,9 @@
 import icon from "../../assets/logo.svg";
 
+import { Title } from "../Title";
 import { Ability } from "../Ability";
 
-import { Container, Header, Title, Progress, Section } from "./style";
+import { Container, Header, Progress, Section } from "./style";
 
 export function Abilities() {
   return (

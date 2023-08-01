@@ -12,17 +12,11 @@ export const Header = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-inline: 1rem;
+  text-align: center;
   
   @media (max-width: ${ consts.breakpoints.tablet }) {
     flex-direction: column;
   }
-`;
-
-export const Title = styled.h2`
-  margin: 1rem;
-  font-size: ${ consts.fontSizes.l };
-  font-weight: ${ consts.fontWeights.semibold };
-  text-align: center;
 `;
 
 export const Progress = styled.progress`
@@ -48,6 +42,10 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 1rem;
+
+  & > * {
+    flex-basis: 24rem;
+  }
 `;
