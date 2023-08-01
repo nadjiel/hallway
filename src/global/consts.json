@@ -31,7 +31,10 @@
   "breakpoints": {
     "tablet": "768px"
   },
-  "user": "nadjiel",
+  "user": {
+    "name": "Nadjiel",
+    "src": "https://github.com/nadjiel"
+  },
   "techs": [
     {
       "name": "html5",

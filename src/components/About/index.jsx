@@ -1,13 +1,16 @@
-import fallback from "../../assets/fallback.png";
+import pic from "../../assets/nadjiel.jpeg";
 
-import { Container, Picture, Intro, Title, Description, Paragraph } from "./style";
+import consts from "../../global/consts.json";
 
-export function About({ user }) {
-  console.log(user)
+import { Title } from "../Title";
+
+import { Container, Picture, Intro, Description, Paragraph } from "./style";
+
+export function About() {
   return (
     <Container>
-      <a href={ user.html_url } title="Go to my Github page" target="_blank">
-        <Picture src={ user.avatar_url ? user.avatar_url : fallback } alt="A picture of me." />
+      <a href={ consts.user.src } title="Go to my Github page" target="_blank">
+        <Picture src={ pic } alt="A picture of me." />
       </a>
       <Intro>
         <a name="about">

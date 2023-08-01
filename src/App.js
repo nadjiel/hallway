@@ -1,22 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 
 import consts from "./global/consts.json";
-import { getUser } from "./services";
 
 import { Header, About, Abilities, Techs } from "./components";
 
 import { Style } from "./style";
 
 function App() {
-  useEffect(() => { loadUser(); }, []);
-  
-  const [ user, setUser ] = useState({});
   const [ theme, setTheme ] = useState(consts.themes.dark);
-
-  const loadUser = () => (
-    getUser(consts.user).then(res => setUser(res))
-  );
   
   const toggleThemes = () => (
     theme.name == "dark" ?
@@ -30,7 +22,7 @@ function App() {
         <Style />
 
         <Header toggleThemes={ toggleThemes } />
-        <About user={ user }/>
+        <About />
         <Abilities />
         <Techs />
       </ThemeProvider>

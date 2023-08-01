@@ -24,12 +24,6 @@ export const Intro = styled.h2`
   margin: 1rem;
 `;
 
-export const Title = styled.h2`
-  margin: 1rem;
-  font-size: ${ consts.fontSizes.l };
-  font-weight: ${ consts.fontWeights.semibold };
-`;
-
 export const Description = styled.p`
   margin: 1rem;
   font-size: ${ consts.fontSizes.s };
