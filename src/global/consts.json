@@ -96,5 +96,43 @@
       "src": "https://neo4j.com/",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-plain.svg"
     }
+  ],
+  "projects": [
+    {
+      "name": "Hallway",
+      "type": "Site",
+      "description": "Hallway is my personal portfolio project made in React.",
+      "src": "https://github.com/nadjiel/hallway"
+    },
+    {
+      "name": "Game Zone",
+      "type": "App",
+      "description": "Game reviews app made following the The Net Ninja's youtube tutorial on React Native.",
+      "src": "https://github.com/nadjiel/game-zone"
+    },
+    {
+      "name": "Pong Plus",
+      "type": "Game",
+      "description": "Remake of the 70s Pong game.",
+      "src": "https://github.com/nadjiel/pong-plus"
+    },
+    {
+      "name": "Chessey",
+      "type": "Game",
+      "description": "Jogo de xadrez em linha de comando desenvolvido em C.",
+      "src": "https://github.com/nadjiel/chessey"
+    },
+    {
+      "name": "Agora",
+      "type": "App",
+      "description": "Little task list app made to practice React Native's basic features.",
+      "src": "https://github.com/nadjiel/agora"
+    },
+    {
+      "name": "Pokedex",
+      "type": "Site",
+      "description": "This project is a reimagination of a pokedex that provides info about pokemon with the pokeapi.",
+      "src": "https://github.com/nadjiel/pokedex"
+    }
   ]
 }
