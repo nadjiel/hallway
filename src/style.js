@@ -48,4 +48,17 @@ export const Style = createGlobalStyle`
   progress {
     border: 0;
   }
+
+  input, textarea {
+    background-color: transparent;
+  }
+
+  a, input, textarea, button {
+    &:focus {
+      outline-style: solid;
+      outline-width: 2px;
+      outline-color: ${ ({ theme }) => theme.primary };
+    }
+  }
+
 `;
