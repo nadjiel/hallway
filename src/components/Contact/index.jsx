@@ -41,7 +41,9 @@ export function Contact() {
 
   return (
     <Container>
-      <Title>Reach me out!</Title>
+      <a name="contact">
+        <Title>Reach me out!</Title>
+      </a>
       <Form onSubmit={ submit }>
         <Label htmlFor="name">Name</Label>
         <Input
