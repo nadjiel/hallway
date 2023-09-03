@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 
 import consts from "./global/consts.json";
 
-import { Header, About, Abilities, Techs, Projects, Contact } from "./components";
+import { Header, About, Abilities, Techs, Projects, Contact, Footer } from "./components";
 
 import { Style } from "./style";
 
@@ -27,6 +27,7 @@ function App() {
         <Techs />
         <Projects />
         <Contact />
+        <Footer />
       </ThemeProvider>
     </div>
   );
